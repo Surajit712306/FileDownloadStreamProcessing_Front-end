@@ -57,6 +57,7 @@ export default function Card({fileData})
     const downloadFile = async () => {
         
         setIsDownloading(true); 
+        setErrorMessage(null);
         const controller = new AbortController();
 
         const {fileUrl } = fileData; 
