@@ -1,0 +1,34 @@
+[
+    {
+        "fileUrl": "https://testfile.org/1.3GBiconpng",
+        "size": "1.3GB"
+    },
+    {
+        "fileUrl": "https://testfile.org/files-5GB",
+        "size": "5GB"
+    },
+    {
+        "fileUrl": "https://link.testfile.org/500MB",
+        "size": "500MB"
+    },
+    {
+        "fileUrl": "http://link.testfile.org/150MB",
+        "size": "150MB"
+    },
+    {
+        "fileUrl": "http://link.testfile.org/15MB",
+        "size": "15MB"
+    },
+    {
+        "fileUrl": "https://link.testfile.org/250MB",
+        "size": "250MB"
+    },
+    {
+        "fileUrl": "https://link.testfile.org/30MB",
+        "size": "30MB"
+    },
+    {
+        "fileUrl": "https://link.testfile.org/300MB",
+        "size": "300MB"
+    }
+]
