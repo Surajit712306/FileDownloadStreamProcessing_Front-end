@@ -5,7 +5,7 @@ import Card from './Card';
 
 const getFileMetadata = async () => {
 
- const filePath = process.env.NODE_ENV !== 'production' ? './src/data.json' : './src/data1.json'; 
+ const filePath = process.env.NODE_ENV === 'production' ? './src/data.json' : './src/data1.json'; 
  const jsonData = await fs.promises.readFile(filePath, "utf-8");
  return JSON.parse(jsonData);
 }
